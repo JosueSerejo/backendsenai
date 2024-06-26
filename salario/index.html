@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../salario/_css/style.css">
+    
+</head>
+
+<body>
+
+    <main>
+
+        <h1>CALCULADORA DE SALÁRIO</h1>
+
+
+        <form method="GET" action="sal.php">
+
+            <div class="numero">
+
+                <div class="separar">
+                    <label>Nome do colaborador:</label>
+                    <input type="text" name="colab" min="1" required />
+
+                </div>
+
+                <label>Valor recebido por hora de trabalho:</label>
+                <input type="number" name="sala" min="1" required />
+
+                <div class="separar">
+
+                    <label>Quantidade de horas trabalhadas no mês</label>
+                    <input type="number" name="hor" min="1" required />
+                </div>
+
+                <div class="envio">
+
+                    <input type="submit" name="enviar">
+                </div>
+            </div>
+
+
+        </form>
+
+    </main>
+
+
+</body>
+
+</html>
