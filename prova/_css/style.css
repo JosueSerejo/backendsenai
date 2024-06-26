@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../_img/1.png);
+}
+
+main {
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    line-height: 80px;
+
+
+}
+
+main .font {
+font-size: 30px;
+
+}
+
+main a {
+    padding: 20px;
+text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+main a:hover {
+
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    padding: 20px;
+
+}
+
+.numero label {
+    font-size: 20px;
+}
+
+.numero input {
+    font-size: 20px;
+    width: 50px;
+    height: 30px;
+}
+
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.enviar input {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.enviar input:hover {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.font img {
+
+width: 300px;
+
+}
