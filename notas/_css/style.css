@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../_img/1.png);
+}
+
+main {
+
+    border: 1px solid rgb(255, 255, 255);
+
+    height: 600px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.forms {
+    margin-top: 10%;
+}
+
+.aluno {
+
+    font-size: 20px;
+}
+.aluno select {
+width: 100px;
+height: 27px;
+}
+
+.aluno input {
+width: 300px;
+font-size: 20px;
+}
+
+.notas input{
+    margin-top: 5%;
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+
+}
+
+.notas {
+    font-size: 20px;
+}
+
+
+.enviar input {
+
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.enviar input:hover {
+
+background-color: black;
+color: white;
+
+}
+
+.letra {
+
+    font-size: 30px;
+    margin-top: 10%;
+    line-height: 50px;
+
+
+}
