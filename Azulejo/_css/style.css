@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+background-image: url(../_img/az.png);
+
+}
+
+main {
+
+    
+    background-color: rgba(0, 0, 0, 0.767);
+    height: 45vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.cx {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    padding: 80px;
+    font-size: 40px;
+    text-align: justify;
+}
+
+#volta {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#volta:hover {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    color: white;
+    margin-top: 3vw;
+}
+
+h2 {
+    margin-top: 2vw;
+}
+
+
+.com {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+
+
+.com input {
+
+width: 50px;
+height: 40px;
+margin-right: 40px;
+
+}
+
+
+.botao input{
+
+    margin-top: 5vw;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer ;
+
+}
+
+.botao input:hover{
+background-color: black;
+color: white;
+
+
+}
