@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+background-image: url(../Calculadora/1.png);
+
+}
+
+main {
+
+    background-color: rgb(158, 174, 192);
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+h1 {
+    padding-top: 30px;
+
+}
+
+h4 {
+
+    padding-top: 20px;
+
+}
+
+
+.op {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 25px;
+
+}
+
+.esco
+{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: -20px;
+}
+
+p {
+    line-height: 40px;
+ 
+
+}
+
+.num input {
+    width: 60px;
+    height: 30px;
+}
+
+
+.num {
+    margin-top: 20px;
+}
+
+.oper {
+    margin-top: 50px;
+    
+
+
+
+}
+
+
+#oper input {
+    width: 30px;
+    height: 30px;
+    margin: 22px;
+    
+
+}
+
+#oper {
+    margin-top: 5px;
+
+
+}
+
+
+.result {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.envi {
+
+    margin-top: 25px;
+
+}

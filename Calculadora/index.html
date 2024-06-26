@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Calculadora/calc.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+
+    <main>
+
+        <h1>CALCULADORA</h1>
+        <h4>PARA OPERAÇÃO ESCOLHA:</h4>
+
+        <div class="op">
+
+            <p> ( - ) = Subtração</p>
+            <p> ( + ) = Adição</p>
+            <p> ( * ) = Multiplicação</p>
+            <p> ( / ) = Divisão</p>
+        </div>
+        <p> ( √ ) = Raiz Quadrada (Digite apenas o primeiro número)</p>
+
+        <div class="num">
+
+            <form method="get" action="calc.php">
+                <label> Primeiro Número :</label>
+                <input type="number" name="n1">
+                <label>Segundo Número :</label>
+                <input type="number" name="n2">
+
+        </div>
+
+        <div class="oper">
+            <label>Escolha a Operação Desejada :</label>
+            <div id="oper">
+
+                <input type="radio" name="o" value="+">
+                <input type="radio" name="o" value="-">
+                <input type="radio" name="o" value="*">
+                <input type="radio" name="o" value="/">
+                <input type="radio" name="o" value="√">
+            </div>
+        </div>
+
+        <div class="esco">
+            <p>+</p>
+            <p>-</p>
+            <p>*</p>
+            <p>/</p>
+            <p>√</p>
+        </div>
+
+
+
+        <div class="envi">
+            <input type="submit" value="Calcular" />
+        </div>
+    </main>
+
+</body>
+
+</html>
