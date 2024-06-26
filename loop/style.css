@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: url(../loop/_img/1.png);
+}
+
+main {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.772);
+padding: 50px;
+font-size: 30px;
+    position: absolute;
+    top: 55%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.dado input {
+    margin-left: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    color: blue;
+    cursor: pointer;
+}
