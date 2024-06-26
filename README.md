@@ -1,4 +1,4 @@
-# Opa, Serejo aqui. Tudo tranquilo?
+ ## Opa, aqui é o Serejo, tudo tranquilo? <img src="https://media.tenor.com/H0YnlUFWJnIAAAAi/tardis-pixel-art.gif" width="50"  />
 
 
 #### Esses projetos fazem parte de uma série de atividades elaboradas com o intuito de aprender a linguagem PHP no curso Técnico em Informática para a Internet do SENAI.
@@ -70,8 +70,6 @@ Observação: Caso o código não seja nenhum dos especificados o produto deve s
 #
 
 12 - (Salário) Faça um sistema que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um script que nos dê:salário bruto.quanto pagou ao INSS.quanto pagou ao sindicato.o salário líquido.calcule os descontos e o salário líquido, conforme a tabela abaixo:
-+ Salário Bruto : R$
-- IR (11%) : R$
-- INSS (8%) : R$
-- Sindicato ( 5%) : R$
-= Salário Liquido : R$Obs.: Salário Bruto - Descontos = Salário LíquidoObs2.: O sistema deverá informar quantos salários mínimos você ganha. se é um , dois três ou acima de 3 salários mínimo.
++ Salário Bruto : R$ - IR (11%) : R$ - INSS (8%) : R$ - Sindicato ( 5%) : R$ = Salário Liquido : R$
++ Obs.: Salário Bruto - Descontos = Salário Líquido
++ Obs2.: O sistema deverá informar quantos salários mínimos você ganha. Se é um , dois três ou acima de 3 salários mínimo.
