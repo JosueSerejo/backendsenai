@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../f1/_css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+
+        <form method="GET" action="formula.php">
+
+           
+
+            <div class="form">
+                <img src="../f1/_img/5.png">
+                <h1>REABASTECIMENTO - FORMULA 1</h1>
+                <div class="comp">
+
+                    <label>Comprimento da pista(metros)</label>
+                    <input type="number" name="comp" step="0.01" min="0" required>
+                </div>
+
+                <div class="comp">
+
+                    <label>Número total de voltas</label>
+                    <input type="number" name="voltas" step="0.01" min="0" required>
+                </div>
+
+                <div class="comp">
+                    <label>Número de abastecimentos</label>
+                    <input type="number" name="abast"  required>
+                </div>
+
+                <div class="comp">
+                    <label>Consumo de combustível(KM/L)</label>
+                    <input type="number" name="combus" step="0.01" min="0" required>
+                </div>
+
+                <div class="botao">
+
+                    <input type="submit" value="calcular" />
+
+                </div>
+
+        </form>
+
+
+    </main>
+
+
+</body>
+
+</html>
