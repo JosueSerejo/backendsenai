@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../_img/11.png);
+}
+
+h1 {
+    background-color: #3d4c41;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px rgb(16, 42, 1);
+
+}
+
+.calc label {
+
+    font-size: 30px;
+    color: black;
+
+}
+
+.calc input {
+
+    width: 50px;
+    height: 40px;
+    color: black;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.enviar input {
+    width: 200px;
+    margin-top: 40px;
+    cursor: grab;
+
+}
+
+.enviar input:hover {
+
+    background-color: #3d4c41;
+    color: white;
+
+}
+
+.text {
+    padding-top: 100px;
+}
+
+.calc {
+    background-color: #eeeeee;
+    height: 300px;
+    text-align: center;
+}
+
+.font {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3d4c41;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+
+
+
+}
+
+.fonte {
+    font-size: 30px;
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3d4c41;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#volta {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3d4c41;
+    background-color: #eeeeee81;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+#volta:hover {
+
+    background-color: #3d4c41a3;
+    color: white;
+
+}
